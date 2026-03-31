@@ -48,9 +48,23 @@ body {
     gap: 12px;
 }
 
+#hero {
+    font-size: 40px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .hero-caption {
     color: #E5E7EB;
+    margin-bottom: 8px;
 }
+
+.hero-image {
+    flex: 1;      /* THÊM DÒNG NÀY: Để vùng chứa ảnh chiếm 1 nửa còn lại */ 
+    width: 100%; /* Hoặc dùng width: 100% để lấp đầy */
+    border-radius: 8px; /* Thêm tí bo góc cho giống mẫu */
+}
+
 
 button {
     height: 32px;
@@ -62,11 +76,7 @@ button {
     border-style: none;
 }
 
-#hero {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
+
 
 .hero-content {
     display: flex;
