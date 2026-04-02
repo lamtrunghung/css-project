@@ -7,6 +7,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -46,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    justify-content: center;
 }
 
 #hero {
@@ -57,6 +60,7 @@ body {
 .hero-caption {
     color: #E5E7EB;
     margin-bottom: 8px;
+    line-height: 24px;
 }
 
 .hero-image {
@@ -67,13 +71,14 @@ body {
 
 
 button {
-    height: 32px;
+    height: 40px;
     width: fit-content;
     padding: 4px 20px;
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 8px;
     border-style: none;
+    font-weight: 600;
 }
 
 
@@ -83,9 +88,109 @@ button {
     flex-direction: column;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 120px;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
+
+.description {
+    text-align: center;
+    color: #1f2937;
+}
+
+.img {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.quote-section {
+    background-color: lightgrey;
+    display: flex; flex-direction: column; gap: 12px;
+    justify-content: center;
+    padding: 60px 180px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    font-size:18px;
+    font-weight: 900;
+    text-align: right;
+}
+
+
+
+.CTA-section {
+    display: flex;
+    padding: 80px 120px;
+}
+
+.CTA-banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 32px 80px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.CTA-content {
+    display: flex;
+    flex-direction: column;
+    color: #f9fafb;
+    gap: 8px;
+
+}
+
+#CTA {
+    border: 1px solid #f9fafb;
+}
+
+.banner-title {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .footer {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 32px 120px;
+    background-color: #1f2937;
+    color: #E5E7EB;
 }
+
